@@ -6,11 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        body {padding: 30px; background: #f9f9f9;}
-        .card { background: white;padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1)}
-        .card h2 {margin: 0 0 10px;}
-    </style>
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <script src="css/bootstrap-icons.min.css"></script>
 </head>
 <body>
     <h1>Admin panel</h1>
@@ -25,6 +23,14 @@
         <p>{{$teachersCount}}</p>
     </div>
 
+    <div class="card">
+        <h2>students</h2>
+        <p>{{$studentsCount}}</p>
+    </div>
 
+    <div class="card">
+        Lessons</h2>
+        <p>{{$lessonsCount}}</p>
+    </div>
 </body>
 </html>
