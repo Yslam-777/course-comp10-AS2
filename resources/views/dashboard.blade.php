@@ -25,14 +25,6 @@
         <p>{{$teachersCount}}</p>
     </div>
 
-    <div class="card">
-        <h2>students</h2>
-        <p>{{$studentsCount}}</p>
-    </div>
 
-    <div class="card">
-        Lessons</h2>
-        <p>{{$lessonsCount}}</p>
-    </div>
 </body>
 </html>
