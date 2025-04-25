@@ -11,7 +11,7 @@
     <script src="css/bootstrap-icons.min.css"></script>
 </head>
 <body>
-    <h1>Admin panel</h1>
+    <h1>Admin-panel</h1>
 
     <div class="card">
         <h2>Courses</h2>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="card">
-        Lessons</h2>
+        <h2>Lessons</h2>
         <p>{{$lessonsCount}}</p>
     </div>
 </body>
